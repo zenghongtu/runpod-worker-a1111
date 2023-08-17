@@ -10,7 +10,7 @@ if __name__ == '__main__':
                 "endpoint": "/sdapi/v1/txt2img"
             },
             "payload": {
-                "prompt": "an astronaut riding a horse",
+                "prompt": "an astronaut riding a green horse",
                 "negative_prompt": "",
                 "seed": -1,
                 "batch_size": 1,
