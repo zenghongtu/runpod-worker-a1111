@@ -14,11 +14,12 @@ Network Volume.
 1. [Local Testing](docs/testing/local.md)
 2. [RunPod Testing](docs/testing/runpod.md)
 
-## Installing and Building the Serverless Worker
+## Installing, Building and Deploying the Serverless Worker
 
 1. [Install Automatic1111 Web UI on your Network Volume](
 docs/installing.md)
 2. [Building the Docker image](docs/building.md)
+3. [Deploying on RunPod Serveless](docs/deploying.md)
 
 ## RunPod API Endpoint
 
