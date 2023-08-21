@@ -17,6 +17,10 @@ if __name__ == '__main__':
                 "init_images": [
                     image_content
                 ],
+                "override_settings": {
+                    "sd_model_checkpoint": "deliberate_v2",
+                    "sd_vae": "vae-ft-mse-840000-ema-pruned.safetensors"
+                },
                 "prompt": "at the ocean",
                 "negative_prompt": "",
                 "seed": -1,
