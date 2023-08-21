@@ -3,6 +3,11 @@
 1. Sign up for a Docker hub account if you don't already have one.
 2. Build the Docker image on your local machine and push to Docker hub:
 ```bash
+# Clone the repo
+git clone https://github.com/ashleykleynhans/runpod-worker-a1111.git
+cd runpod-worker-a1111
+
+# Build and push
 docker build -t dockerhub-username/runpod-worker-a1111:1.0.0 .
 docker login
 docker push dockerhub-username/runpod-worker-a1111:1.0.0
