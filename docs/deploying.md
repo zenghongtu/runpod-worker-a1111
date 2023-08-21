@@ -1,4 +1,4 @@
-## Deploying on Serveless
+## Deploying on RunPod Serveless
 
 1. Go to [RunPod Serverless Console](https://www.runpod.io/console/serverless).
 2. Create a Template (Templates > New Template).
