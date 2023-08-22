@@ -10,7 +10,7 @@
 ```bash
 # Clone the repo
 cd /workspace
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+git clone --depth=1 https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
 # Upgrade Python
 apt update
@@ -74,3 +74,9 @@ export HF_HOME="/workspace"
 cd /workspace/stable-diffusion-webui
 ./webui.sh -f
 ```
+13. Wait for the Web UI to start up, and download the models. You shoud
+    see something like this when it is ready:
+```
+Model loaded in 16.9s (calculate hash: 8.0s, load weights from disk: 0.4s, create model: 2.1s, apply weights to model: 2.6s, apply half(): 2.6s, move model to device: 0.7s, calculate empty prompt: 0.3s).
+```
+14. Press Ctrl-C to exit, and then you can terminate the pod.

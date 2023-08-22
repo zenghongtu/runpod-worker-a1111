@@ -1,5 +1,14 @@
 ## Building the Docker image
 
+You can either build this Docker image yourself, your alternatively,
+you can use my pre-built image:
+
+```
+ashleykza/runpod-worker-a1111:1.0.30
+```
+
+If you choose to build it yourself:
+
 1. Sign up for a Docker hub account if you don't already have one.
 2. Build the Docker image on your local machine and push to Docker hub:
 ```bash
