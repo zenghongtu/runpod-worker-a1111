@@ -14,7 +14,7 @@ git clone --depth=1 https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
 # Upgrade Python
 apt update
-apt upgrade
+apt -y upgrade
 
 # Ensure Python version is 3.10.12
 python3 -V
