@@ -41,7 +41,7 @@ pip3 install huggingface_hub runpod
 
 echo "Downloading Deliberate v2 model"
 cd /workspace/stable-diffusion-webui/models/Stable-diffusion
-wget -O deliberate_v2.safetensors https://civitai.com/api/download/models/
+wget -O deliberate_v2.safetensors https://civitai.com/api/download/models/15236
 
 echo "Downloading ControlNet models"
 mkdir -p /workspace/stable-diffusion-webui/models/ControlNet
